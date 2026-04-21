@@ -300,27 +300,6 @@ p {
   margin: 0.25rem 0 0.55rem;
 }
 
-.search-mock {
-  background: #ffffff;
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  box-shadow: var(--shadow);
-  padding: 0.8rem;
-  display: grid;
-  grid-template-columns: 1.25fr 1fr 1fr auto;
-  gap: 0.65rem;
-  margin-bottom: 1.5rem;
-}
-
-.search-chip {
-  background: var(--surface-soft);
-  border: 1px solid #e8eaef;
-  border-radius: 12px;
-  padding: 0.72rem 0.85rem;
-  color: #475467;
-  font-size: 0.9rem;
-}
-
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -445,10 +424,6 @@ textarea {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .search-mock {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .footer-top {
     grid-template-columns: 1fr;
   }
@@ -476,8 +451,7 @@ textarea {
 
   .grid-3,
   .grid-4,
-  .form-grid,
-  .search-mock {
+  .form-grid {
     grid-template-columns: 1fr;
   }
 }
